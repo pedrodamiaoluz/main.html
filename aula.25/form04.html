@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Formulario</title>
+</head>
+<body>
+    <h1>Testando o Formulário <hr></h1>
+    <form action="#" method="post" autocomplete="on">
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <div>
+           <label for="inome">Nome:</label>
+           <input type="text" name="nome" id="inome"
+           required autocomplete="country-name" 
+           placeholder="Digite o nome" minlength="5" maxlength="30">
+        </div>
+        <br>
+        <div>
+            <label for="itelefone">Telefone:</label>
+            <input type="tel" name="telefone" id="itelefone" 
+            required autocomplete="tel-local-suffix" 
+            placeholder="(XX)XXXXX-XXXX" pattern="^\(\d{2}\)\d{4,5}-\d{4}$">
+        </div>
+        <br>
+        <div>
+            <label for="iemail">Email:</label>
+            <input type="email" name="email" id="iemail"
+            required autocomplete="email" placeholder="Digite o email">
+        </div>
+        <!--Estudar mais sobre RegEx-->
+     </fieldset>
+    <br>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    
+    </form>
+</body>
+</html>
