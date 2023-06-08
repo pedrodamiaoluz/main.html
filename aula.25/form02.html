@@ -4,15 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste Para Formulario/title>
+    <title>Teste de Formulario</title>
 </head>
 <body>
     <h1>Testando o Formulario</h1>
-    <form action="cadastro.php" method="post">
-        <p>
-            <label for="iusuario">Usuario</label>
-            <input type="text" name="usuario" id="iusuario">
-        </p>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <div>
+            <label for="iusuario">Usuario:</label>
+            <input type="text" name="usuario" id="iusuario" 
+            required minlength="5" maxlength="30" size="11" 
+            placeholder="nome do usuário" autocomplete="username">
+        </div>
+        <br>
+        <div class="isenha">
+            <label for="isenha">Senha</label>
+            <input type="password" name="senha" id="isenha" 
+            required minlength="8" size="11" placeholder="Senha" autocomplete="current-password">
+        </div>
+        <br>
+        <div>
+           <input type="submit" value="Enviar">
+           <input type="reset" value="Limpar">
+        </div>
     </form>
 </body>
 </html>
