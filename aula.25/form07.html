@@ -12,7 +12,7 @@
         <div>
             <label for="iest">Estado</label>
             <select name="estado" id="iest">
-
+                <option disabled selected value="0">-> Informe a opção</option>
                 <optgroup label="Região Suldeste">
                     <option value="MG">Minas Gerais</option>
                     <option value="RJ">Rio de Janeiro</option>
@@ -26,7 +26,20 @@
                 </optgroup>
             </select>
         </div>
-
+        <div><br>   
+            <label for="ilistprof">Profição</label>
+            <input type="text" name="listprof" id="ilistprof" list="listprof">
+            <datalist id="listprof">
+                <option>Administrador</option>
+                <option >Professor</option>
+                <option>Engenheiro</option>
+                <option>Bombeiro</option>
+            </datalist>
+        </div>
+          <div><br>
+              <label for="imsg">Mensagem: <br></label>
+              <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Seua mensagem"></textarea>
+        </div>
         <div><br>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
