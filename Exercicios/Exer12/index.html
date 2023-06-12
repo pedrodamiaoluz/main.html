@@ -4,10 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Video</title>
+    <title>Meus Video</title>
 </head>
 <body>
+    <h1>Inserindo vídeo hospedado localmente <hr></h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+
+    <!--<video src="midia/meu-video-2.mp4" width="500" 
+    controls height="300"></video>-->
+
+    <video width="500" height="300" poster="imagem/mulher.jpg" controls autoplay loop>
+        <source src="midia/meu-video-2.mp4" type="video/mp4">
+       <!--video.m4v
+           video.webm
+           video.ogv
+        outra maneira de vc baixar video para navegador
+        compatível--> 
+    </video>
+    <h1>Inserindo vídeo do youtube</h1>
     
-    
+    <div>
+        <iframe width="500" height="300" src="https://www.youtube.com/embed/oH4-GH1aheY" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen></iframe>
+    </div>
 </body>
 </html>
