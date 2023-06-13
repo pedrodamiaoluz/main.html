@@ -1,13 +1,25 @@
+@charset "UTF-8";
+
 *{
     background-color: rgb(36, 32, 32);
+    
 }
 .titulo{
-    color: white;
-}
-
-div.imagem{
-    width: 20px 20px 20px 20px;
-    display: inline-block;
+    color: rgb(230, 225, 225);
+    text-align: center;
+    margin: 50px;
     
-
+   
+    
 }
+
+#imagem{
+    position: relative;
+    display: flex;  
+    justify-content: center;
+    background-image: center;
+    
+}
+
+
+

@@ -1,5 +1,21 @@
+@charset "UTF-8";
+
 *{
     background-color: rgb(19, 17, 17);
+}
+
+#img{
+  text-align: center;
+}
+
+.titulo{
+  text-align: center;
+}
+
+#video{
+  
+  display: flex;
+  justify-content: center;
 }
 
 h1{
