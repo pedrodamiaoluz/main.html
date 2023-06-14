@@ -4,10 +4,6 @@
     background-color: rgb(19, 17, 17);
 }
 
-#img{
-  text-align: center;
-}
-
 .titulo{
   text-align: center;
 }
@@ -22,7 +18,8 @@ h1{
   color: white;
 }
 
-button{
+#button,button{
     border-radius: 100%;
+    text-align: center;
 }
 
