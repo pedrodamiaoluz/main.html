@@ -1,10 +1,8 @@
 @charset "UTF-8";
 
-/*em HTML é id = em CSS é #
-  em HTML é class = em CSS é .
+/*em HTML é id = em CSS é # (só pode um elemento)
+  em HTML é class = em CSS é . (pode vários elementos)
 */
-
-/*id vc pode ter so um no seu site e class vc pode ter varias*/
 
 body{
     background-color: #96A0E3;
@@ -38,6 +36,10 @@ h2{
 .avançado{
    color: chartreuse;
    font-weight: bold;
+}
+
+.destaque{
+   background-color: rgba(128, 169, 67, 0.811);
 }
 
 
