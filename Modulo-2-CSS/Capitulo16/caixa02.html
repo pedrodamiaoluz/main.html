@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: linear-gradient(to bottom, red, rgb(154, 60, 60));
+        background-attachment: fixed;
+        margin: 0px;
+    }
+    header{
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    nav{
+        background-color: rgb(70, 60, 60);
+        padding: 3px;
+    }
+
+    nav > a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 30px;
+       
+    }
+
+
+    nav > a:hover{
+        text-decoration: underline;
+        background-color: red;
+    }
+
+    main{
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+    }
+    h1{
+        color: rgb(108, 38, 38);
+        font-weight: bold;
+        text-align: center;
+    }
+
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 1px;
+        margin: 0px;
+    }
+
+    article{
+        background-color: lightgray;
+        padding: 0px 3px 0px 3px;
+    }
+
+    article > h2{
+        color: rgb(239, 5, 5);
+        font-weight: bold; 
+    }
+
+    article > p{
+        text-align: justify;
+    }
+    article > aside{
+        background-color: rgb(125, 112, 112);
+    }
+</style>
+<body>
+
+     <!-- Quando for fazer um site utilize essas tags -->
+
+    <header><!-- Cabeça -->
+        <h1>Meu site</h1>
+        <nav><!-- utilizar menus para navegação-->
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+        </nav>
+    </header>
+    <main><!-- Utilizar para Conteudo principal-->
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Qui sint voluptates ullam, animi ad iusto odit enim in 
+                    illum fugit natus delectus amet eum dignissimos assumenda
+                    debitis quae nam quia.
+                </p>
+                <aside>
+                    <p>Artigo escrito por Pedro Damiao</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer><!--Rodape-->
+        <p>Desenvolvido por pedro Damião</p>
+    </footer>
+</body>
+</html>
