@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body{
+    background-color: darkseagreen;
+    margin: 0px;
+}
+
+header{
+    background-color: forestgreen;
+    padding: 2px;
+}
+
+header > h1{
+    color: white;
+    padding: 2px;
+    text-align: center;
+}
+
+header > p{
+    text-align: center;
+    color: white;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+main{
+    background-color: white;
+    margin: 0px 200px;
+    padding: 2px;
+}
+
+article > h2{
+   background-color:rgba(93, 159, 93, 0.526);
+   color: rgb(45, 76, 45);
+}
+
+article > p{
+    text-align: justify;
+}
