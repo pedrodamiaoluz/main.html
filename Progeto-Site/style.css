@@ -32,6 +32,8 @@ main{
     background-color: white;
     margin: 0px 200px;
     padding: 2px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.346);
+    border-radius: 0px 0px 10px 10px;
 }
 
 article > h2{
@@ -57,11 +59,13 @@ article > img{
 footer{
     background-color:  forestgreen;
     padding: 4px;
-    margin: 0px;
+    margin-top:20px;
+    margin-bottom: 0px;
     
 }
 
 footer > p{
     margin: 0px;
-   
+    text-align: center;
+    color: white;
 }
