@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body{
-    background-color: darkseagreen;
+    background-color: #85E1B5;
     margin: 0px;
 }
 
@@ -36,6 +36,8 @@ main{
     border-radius: 0px 0px 10px 10px;
 }
 
+
+
 article > h2{
    background-color:rgba(93, 159, 93, 0.526);
    color: rgb(45, 76, 45);
@@ -54,6 +56,10 @@ article > p{
 article > img{
     background-color: aqua;
     background-image: center;
+}
+
+article > div{
+    background-color: aqua;
 }
 
 footer{
