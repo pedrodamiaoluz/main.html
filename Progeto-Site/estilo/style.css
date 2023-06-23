@@ -1,77 +1,42 @@
 @charset "UTF-8";
 
-body{
-    background-color: #85E1B5;
-    margin: 0px;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DotGothic16&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
 }
 
-header{
-    background-color: forestgreen;
-    padding: 2px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.474);
+:root{
+    --cor0: #ebe5c5;
+    --cor1: #83E1AC;
+    --cor2: #3DDB82;
+    --cor3: #2FA864;
+    --cor4: #355C46;
+    --cor5: #1A5C37;
+
+    --fonte-padrao: Arial, verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-Android: 'Android', cursive;
+}
+
+body{
+    background-color: var(--cor1);
+    font-family: var(--fonte-padrao);
 }
 
 header > h1{
-    color: white;
-    padding: 2px;
-    text-align: center;
+    color: var(--cor5);
+    font-family: var(--fonte-destaque);
 }
 
-header > p{
-    text-align: center;
-    color: white;
+article > h1{
+    color: var(--cor5);
+    font-family: var(--fonte-Android);
 }
 
-nav > a{
-    text-decoration: none;
-    color: white;
-    margin: 10px;
-}
-
-main{
-    background-color: white;
-    margin: 0px 200px;
-    padding: 2px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.346);
-    border-radius: 0px 0px 10px 10px;
-}
-
-
-
-article > h2{
-   background-color:rgba(93, 159, 93, 0.526);
-   color: rgb(45, 76, 45);
-   margin: 20px;
-   padding: 0px 10px;
-}
-
-article > p{
-    text-align: justify;
-    text-indent: 1.5em;
-    background-color: white;
-    padding: 5px;
-    margin: 20px;
-}
-
-article > img{
-    background-color: aqua;
-    background-image: center;
-}
-
-article > div{
-    background-color: aqua;
-}
-
-footer{
-    background-color:  forestgreen;
-    padding: 4px;
-    margin-top:20px;
-    margin-bottom: 0px;
-    
-}
-
-footer > p{
-    margin: 0px;
-    text-align: center;
-    color: white;
+main > h2{
+    color: var(--cor5);
+    font-family: var(--fonte-Android);
 }
